@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jost";
+}
+
+.nav-b {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* Align items to the left */
+  background-color: #333;
+  padding: 10px;
+}
+
+/* Navbar links styling */
+.nav-b a {
+  color: black;
+  text-align: center;
+  padding: 16px 22px;
+  text-decoration: none;
+  font-size: 24px; 
+}
+
+/* Hover effect for links */
+.nav-b a:hover {
+ 
+  color: rgb(164, 114, 20);
+}
+
+h2{
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  text-shadow: 2px 2px 5px #fff;
+  
+}
+
+p{
+  font-size: 20px;
+  text-align: justify;
+  background-color: #fff;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    text-align:center;
+    place-items:center;
+    display: grid;
+    background-color: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+
+    );
+    background-image: url("../image/pexels-pixabay-267586.jpg");
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-attachment: fixed;
+}
+
+.sec-2{
+
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)
+
+);
+ background-image: url("../image/pexels-pixabay-434337.jpg");
+
+}
+.sec-3{
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)
+
+);
+ background-image: url("../image/pexels-tirachard-kumtanom-112571-733852.jpg");
+ background-attachment: fixed;
+
+}
+.para{
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: #f9f8f5;
+}
+
+.h3{
+  position: relative;
+  bottom: 150px;
+  font-size: 70px;
+}
+#bt{
+  font-size: 20px;
+  background-color: rgb(15, 138, 163);
+}
