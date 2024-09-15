@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+  font-family: "jost",sana-serif;
+    background-color:rgb(76, 74, 74);
+
+}
+h1{
+  font-weight:bold ;
+  font-size: 40px;
+  
+}
+.hero-section{
+  display: grid;
+  place-items: center;
+  width:50%;
+}
+.nav-b {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; 
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  /* Navbar links styling */
+  .nav-b a {
+    color: black;
+    text-align: center;
+    padding: 16px 22px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  /* Hover effect for links */
+  .nav-b a:hover {
+    
+    color: rgb(164, 114, 20);
+  }
+
+ 
+img {
+    box-shadow: #333;
+   position: relative;
+   left: 80%;
+    border-radius: 50% / 25%; /* Makes the border oval */
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+}    */
+
+li,
+p,
+label{
+  font-family: Urbanist;
+  letter-spacing: 0.06;
+  line-height: 1.6;
+  font-size: 20px;
+}
+  
+.btn{
+    font-size: 18px;
+     background-color: rgb(164, 114, 20) ;
+     color: aliceblue;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color:  rgb(164, 114, 20);
+}
+
+#os{
+  list-style: none;
+}
